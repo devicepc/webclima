@@ -1,0 +1,128 @@
+/* Change the white to any color ;) */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px rgb(53,59,72) inset !important;
+    box-shadow: 0 0 0 30px rgb(53,59,72) inset !important;
+}
+
+
+body,
+html,
+.container,
+.row,
+h2,
+.search_input {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navigation bar sections */
+
+.navbar .navbar-brand img {
+    height: 40px;
+}
+#city-search.input{
+    border: red 1px solid;
+}
+
+.searchbar {
+    margin-bottom: auto;
+    margin-top: 100px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 140px 10% 0% 10%;
+    max-width: 650px;
+    align-content: center;
+}
+
+.search_input {
+    color: #000;
+    border: 0;
+    outline: 0;
+    background: none;
+    /* caret-color: transparent; */
+    line-height: 40px;
+    padding: 0 10px;
+    width: 250px;
+    font-size: 1.8em;
+    caret-color: #4e94ab;
+    transition: width 0.4s linear;
+}
+.search_input::placeholder{
+    color: #000;
+    font-size: 15px;
+    
+}
+
+.searchbar:hover>.search_input,.searchbar>.search_input:focus {
+    caret-color: #4e94ab;
+    transition: width 0.4s linear;
+}
+.searchbar>.search_input:focus{
+    background: transparent;
+}
+
+.searchbar:hover>.search_icon {
+    color: #4e94ab;
+    text-decoration: none;
+}
+
+.search_icon {
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+}
+.h1wCard{
+    margin-top: 45px;
+}
+/* Cards */
+.hidden{
+    display: none !important;
+}
+
+.row.desc {
+    background: #fff;
+    border-radius: 30px;
+    width: 450px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+ .card {
+    background-color: #837f7f;
+    border-radius: 30px !important;
+    color: white;
+    transition: all .5s ease;
+    height: 400px;
+    margin-left: 5%;
+    margin-bottom: 40px;
+    float: left;
+    width: 250px;
+}
+.col-md-6{
+    background: #fff !important;
+    border-radius: 30px !important;
+    color: #1f1c1c;
+    transition: all .5s ease;
+    height: 500px;
+    margin-left: 30px;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 2px 0px;
+}
+
+.card img {
+    height: 60px;
+    width: 60px;
+}
+
